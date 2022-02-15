@@ -13,10 +13,19 @@ public class RomanNumerals
 
     public string Convert(int i)
     {
-        var highestMatch = Lookup
-            .Keys
-            .OrderByDescending(k => k)
-            .First(k => k == i);
-        return Lookup[highestMatch];
+        return Go(i, "");
+        
+        string Go(int index, string value)
+        {
+            if (index == 0) {  return value; }
+
+            var highestMatch = Lookup
+                .Keys
+                .OrderByDescending(k => k)
+                .First(k => k <= index);
+            var symbol = Lookup[highestMatch];
+
+            return Go(index - highestMatch, value + symbol);
+        }
     }
 }
