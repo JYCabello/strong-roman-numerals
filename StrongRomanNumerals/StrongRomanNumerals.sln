@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongRomanNumerals", "StrongRomanNumerals\StrongRomanNumerals.csproj", "{E19F7EBE-9A9D-48CD-872C-116690AB15DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongRomanNumerals.Tests", "StrongRomanNumerals.Tests\StrongRomanNumerals.Tests.csproj", "{9C71B26B-27D7-4614-84FC-A764F553C671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E19F7EBE-9A9D-48CD-872C-116690AB15DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19F7EBE-9A9D-48CD-872C-116690AB15DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19F7EBE-9A9D-48CD-872C-116690AB15DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19F7EBE-9A9D-48CD-872C-116690AB15DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C71B26B-27D7-4614-84FC-A764F553C671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C71B26B-27D7-4614-84FC-A764F553C671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C71B26B-27D7-4614-84FC-A764F553C671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C71B26B-27D7-4614-84FC-A764F553C671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
