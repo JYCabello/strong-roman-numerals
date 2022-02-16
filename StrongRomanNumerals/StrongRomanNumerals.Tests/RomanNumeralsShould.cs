@@ -10,7 +10,7 @@ public class RomanNumeralsShould
     public void Test1(string expected, int input)
     {
         var romanNumerals = new RomanNumerals();
-        string result = romanNumerals.Convert(input);
+        var result = romanNumerals.Convert(input);
         Assert.Equal(expected, result);
     }
 }

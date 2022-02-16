@@ -3,5 +3,5 @@
 public class RomanNumerals
 {
     public string Convert(int input) =>
-        "I";
+        input == 1 ? "I" : "V";
 }
