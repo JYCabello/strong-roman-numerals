@@ -4,8 +4,8 @@ namespace StrongRomanNumerals.Tests;
 
 public class RomanNumeralsShould
 {
-    [Fact(DisplayName = "convert 1 to I")]
-    public void Convert()
+    [Fact(DisplayName = "something something")]
+    public void Test1()
     {
 
     }
