@@ -2,7 +2,7 @@
 
 public class RomanNumerals
 {
-    public static Dictionary<int, string> numeralMap =>
+    public static readonly Dictionary<int, string> numeralMap =
         new()
         {
             { 1, "I" },
