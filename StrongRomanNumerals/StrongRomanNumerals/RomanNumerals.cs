@@ -12,14 +12,13 @@ public class RomanNumerals
 
     public string Convert(int input)
     {
-        var kv =
+        var (number, symbol) =
             numeralMap
                 .OrderByDescending(kv => kv.Key)
                 .First(kv => input >= kv.Key);
-        var symbol = kv.Value;
 
-        if (input - kv.Key >= kv.Key)
-            return symbol + Convert(input - kv.Key);
+        if (input - number >= number)
+            return symbol + Convert(input - number);
 
         return numeralMap[input];
     }
