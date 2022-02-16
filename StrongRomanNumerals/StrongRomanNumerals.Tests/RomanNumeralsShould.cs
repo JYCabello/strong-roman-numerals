@@ -9,6 +9,7 @@ public class RomanNumeralsShould
     [InlineData("III", 3)]
     [InlineData("IV", 4)]
     [InlineData("V", 5)]
+    [InlineData("X", 10)]
     public void Test1(string expected, int input)
     {
         var romanNumerals = new RomanNumerals();
